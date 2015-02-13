@@ -1,3 +1,7 @@
+# Still getting the hang of short lines
+Metrics/LineLength:
+  Max: 120
+
 # I prefer double quotes,
 # because then I don't have to change from single to double
 # when there's an apostrophe
