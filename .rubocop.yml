@@ -1,0 +1,5 @@
+# I prefer double quotes,
+# because then I don't have to change from single to double
+# when there's an apostrophe
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

@@ -1,1 +1,2 @@
 gem "twitter"
+gem "rubocop"
