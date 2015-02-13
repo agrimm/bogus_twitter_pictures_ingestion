@@ -1,0 +1,7 @@
+---
+# Name of the twitter account debunking bogus twitter pictures
+:username: PicPedant
+# How many tweets to request
+:count: 50
+# Include retweets?
+:include_rts: true
