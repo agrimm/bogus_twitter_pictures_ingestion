@@ -50,9 +50,10 @@ class BogusTwitterPicturesIngestor
 
   def determine_username_text_pairs_for_text(text)
     # http://stackoverflow.com/questions/740590/regexp-how-to-extract-usernames-out-of-tweets-twitter-com/11643085#11643085
-    usernames = text.scan(/(?<!\w)@(\w+)/)
-    usernames.map do |u|
-      [u, text]
+    results = text.scan(/(?<!\w)@(\w+)/)
+    results.map do |result|
+      username = result.first
+      [username, text]
     end
   end
 
